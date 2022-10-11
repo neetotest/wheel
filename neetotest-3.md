@@ -1,3 +1,3 @@
 testing #3
 
-test-counter: 1
+test-counter: 2
