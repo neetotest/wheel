@@ -37,18 +37,34 @@
   },
   "formation": {},
   "addons": [
-    {
+   {
       "plan": "heroku-postgresql",
       "options": {
         "version": "14"
       }
     },
     {
+      "plan": "heroku-postgresql"
+    },
+    {
       "plan": "heroku-redis:hobby-dev"
     },
     {
-      "plan": "searchbox:starter"
+      "plan": "heroku-redis:hobby-dev",
+      "options": {
+        "version": "6"
+      }
+    },
+    {
+    "plan": "searchbox:starter"
+    },
+    {
+    "plan": "searchbox:starter",
+      "options": {
+        "version": "7"
+      }
     }
+
   ],
   "buildpacks": [
     {
